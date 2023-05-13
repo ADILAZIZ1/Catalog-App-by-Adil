@@ -86,11 +86,6 @@ class _LoginPageState extends State<LoginPage> {
                           }
                           return null;
                         },
-                        onChanged: (value) {
-                          setState(() {
-                            name = value;
-                          });
-                        },
                       ),
                       SizedBox(
                         height: 50,
